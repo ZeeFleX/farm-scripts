@@ -1,7 +1,7 @@
 /*
 !miners
 miners/config.cfg
-!.config/autostart
-!.local/share/applications
+!.config/autostart/*
+!.local/share/applications/*
 !.gitignore
 !.icons

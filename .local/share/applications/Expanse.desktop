@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Expanse
+Comment=Старт майнинга Expanse
+GenericName=
+Keywords=expanse;экспанс;майнинг
+Exec=/home/farm4/miners/exp.sh
+Terminal=true
+Type=Application
+Icon=/home/farm4/miners/icons/expanse.jpg
+Path=
+Categories=
+NoDisplay=false
+Name[ru]=Expanse

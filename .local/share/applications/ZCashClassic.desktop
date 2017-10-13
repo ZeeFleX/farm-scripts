@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=ZCash classic
+Comment=Старт майнинга ZCash classic
+GenericName=
+Keywords=zcash;зек;classic;классик;майнинг
+Exec=/home/farm4/miners/zcl.sh
+Terminal=true
+Type=Application
+Icon=/home/farm4/miners/icons/zcash-classic.png
+Path=
+Categories=
+NoDisplay=false
+Name[ru]=ZCashClassic

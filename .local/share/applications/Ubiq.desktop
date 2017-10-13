@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Ubiq
+Comment=Старт майнинга ubiq
+GenericName=
+Keywords=ubiq;убик;майнинг
+Exec=/home/farm4/miners/ubq.sh
+Terminal=true
+Type=Application
+Icon=/home/farm4/miners/icons/ubq.svg
+Path=
+Categories=
+NoDisplay=false
+Name[ru]=Ubiq

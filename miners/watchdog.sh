@@ -3,7 +3,7 @@
 #Reading config file
 . ~/miners/config.cfg
 
-echo "Watchdog started. Timeout to start: $wdTimeout seconds. Signal util level: $wdSignalUtilization%"
+echo "Watchdog started. Timeout to start: $wdTimeout seconds. Signal level: $wdSignalUtilization%"
 
 counter=()
 

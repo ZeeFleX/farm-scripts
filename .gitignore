@@ -4,3 +4,4 @@ miners/config.cfg
 !.config/autostart
 !.local/share/applications
 !.gitignore
+!.icons

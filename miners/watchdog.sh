@@ -21,7 +21,7 @@ do
     do
 	utilization=$(nvidia-smi |  grep -A1 "[[:space:]]$i  GeForce" | grep -oE "[0-9]*%[[:space:]]*Default" | grep -oE "[0-9]*")
 
-	if(($utilization < $wdSignalUtilization))
+	if [ -z "$utilization" ] || (($utilization < $wdSignalUtilization))
 	then
 		((counter[$i]++))
 	else
@@ -31,6 +31,7 @@ do
 	if((${counter[$i]} >= 3))
 	then
 		echo $(date +"%y-%m-%d %T") - Cработал watchdog >> ~/miners/logs/watchdog.txt
+		echo "Reboot"		
 		reboot
 	fi	
 

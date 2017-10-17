@@ -5,5 +5,5 @@ miners/config.cfg
 !.local/share/applications/*
 !.gitignore
 !.icons
-miners/logs/watchdog.txt
+miners/logs/
 .config/autostart/@startminer.desktop

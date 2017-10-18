@@ -3,6 +3,8 @@
 #Reading config file
 . ~/miners/config.cfg
 
+if((enableFanControl))
+then
 #Fan controller
 
 for i in ${gpus[@]}
@@ -54,3 +56,4 @@ do
 
     sleep 1
 done
+fi

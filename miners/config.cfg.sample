@@ -103,6 +103,7 @@ powerLimit=110
 #-----------
 # FAN CONTROL
 #-----------
+enableFanControl=1
 targetTemp=78
 
 #-----------------

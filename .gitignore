@@ -6,4 +6,4 @@ miners/config.cfg
 !.gitignore
 !.icons
 miners/logs/
-.config/autostart/@startminer.desktop
+.config/autostart/startminer.desktop

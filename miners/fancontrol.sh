@@ -3,7 +3,7 @@
 #Reading config file
 . ~/miners/config.cfg
 
-if((enableFanControl))
+if(($enableFanControl))
 then
 #Fan controller
 

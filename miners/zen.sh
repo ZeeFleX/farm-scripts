@@ -20,5 +20,5 @@ done
 #Watchdog
 gnome-terminal -e "./miners/watchdog.sh"
 
-#Start zencash mining over miningspeed.com and bittrex
-~/miners/ewbf/miner --server mining.miningspeed.com --user $zenAddress.$rigName --pass x --port 3062 --api 0.0.0.0:42000 --fee 0
+#Start zencash mining over zenmine.pro and bittrex
+~/miners/ewbf/miner --server eu.zenmine.pro --user $zenAddress.$rigName --pass x --port 9009

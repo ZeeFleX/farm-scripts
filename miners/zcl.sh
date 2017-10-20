@@ -21,4 +21,4 @@ done
 gnome-terminal -e "./miners/watchdog.sh"
 
 #Start zcash classic mining over miningspeed.com and bittrex
-~/miners/ewbf/miner --server asia.zclmine.pro --user $zclAddress.$rigName --pass x --port 9009 --api 0.0.0.0:42000 --fee 0
+~/miners/ewbf/miner --server eu.zclmine.pro --user $zclAddress.$rigName --pass x --port 9009 --api 0.0.0.0:42000 --fee 0

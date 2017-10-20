@@ -7,6 +7,9 @@ if(($enableFanControl))
 then
 #Fan controller
 
+cardsStr=$(nvidia-smi | grep -B1 "Default" | grep -oE "|[[:space:]]*[0-9]*[[:space:]]*GeForce" | grep -oE "[0-9]*")
+gpus=(${cardsStr})
+
 for i in ${gpus[@]}
 do
     nvidia-settings -a [gpu:$i]/GPUFanControlState=1

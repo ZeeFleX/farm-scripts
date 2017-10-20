@@ -7,6 +7,10 @@ echo "Watchdog started. Timeout to start: $wdTimeout seconds. Signal level: $wdS
 
 counter=()
 
+cardsStr=$(nvidia-smi | grep -B1 "Default" | grep -oE "|[[:space:]]*[0-9]*[[:space:]]*GeForce" | grep -oE "[0-9]*")
+gpus=(${cardsStr})
+
+
 for i in ${gpus[@]}
 do
 	counter[$i]=0

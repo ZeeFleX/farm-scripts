@@ -5,6 +5,9 @@ ln -s ~/.local/share/applications/Ubiq.desktop ~/.config/autostart/startminer.de
 #Reading config file
 . ~/miners/config.cfg
 
+cardsStr=$(nvidia-smi | grep -B1 "Default" | grep -oE "|[[:space:]]*[0-9]*[[:space:]]*GeForce" | grep -oE "[0-9]*")
+gpus=(${cardsStr})
+
 #Setting powerlimits
 
 echo "123321" | sudo -S nvidia-smi -pl $powerLimit

@@ -28,6 +28,9 @@ do
 	if [ -z "$utilization" ] || (($utilization < $wdSignalUtilization))
 	then
 		((counter[$i]++))
+		echo $(uptime -p)
+		echo "GPU $i errors count: ${counter[$i]}"
+		echo "----------"
 	else
 		counter[$i]=0
 	fi
@@ -40,7 +43,9 @@ do
 	fi	
 
     done
+	echo $(uptime -p)
 	echo "All is well!"
+	echo "----------"
 
     sleep $wdInterval
 done

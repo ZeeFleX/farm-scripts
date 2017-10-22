@@ -35,7 +35,7 @@ do
 		counter[$i]=0
 	fi
 	
-	if((${counter[$i]} >= 3))
+	if((${counter[$i]} >= 5))
 	then
 		echo $(date +"%y-%m-%d %T") - Cработал watchdog >> ~/miners/logs/watchdog.txt
 		echo "Reboot"		

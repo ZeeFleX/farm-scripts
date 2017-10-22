@@ -24,6 +24,6 @@ done
 gnome-terminal -e "./miners/watchdog.sh"
 
 #Start komodo mining over miningspeed and bittrex
-~/miners/ewbf/miner --server mining.miningspeed.com --user $kmdAddress.$rigName --pass x --port 3042 --api 0.0.0.0:42000 --fee 0
+~/miners/ewbf/miner --server mining.miningspeed.com --user $kmdAddress.$rigName --pass x --port 3042 --api 0.0.0.0:42000 --fee 0 --pec
 
 

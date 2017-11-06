@@ -122,6 +122,9 @@ wdTimeout=120
 # WALLETS
 #--------
 
+# bitcoinz
+btczAddress="t1QHxShVd5xwsr8Er96FvQ586LtMqRdYUz6"
+
 # Ethereum
 ethAddress="0x1471ffaa9ead259f28e85507a668ce41499ac910"
 

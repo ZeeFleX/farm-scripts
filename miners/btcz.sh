@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ln -s ~/.local/share/applications/ZCash.desktop ~/.config/autostart/startminer.desktop -f
+ln -s ~/.local/share/applications/BitcoinZ.desktop ~/.config/autostart/startminer.desktop -f
 
 #Reading config file
 . ~/miners/config.cfg

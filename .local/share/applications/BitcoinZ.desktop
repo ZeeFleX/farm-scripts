@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=BitcoinZ
+Comment=Старт майнинга BitcoinZ
+GenericName=
+Keywords=bitcoinz;майнинг
+Exec=/home/farm4/miners/btcz.sh
+Terminal=true
+Type=Application
+Icon=
+Path=
+Categories=
+NoDisplay=false
+Name[ru]=BitcoinZ

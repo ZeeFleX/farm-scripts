@@ -119,6 +119,13 @@ wdSignalUtilization=60
 wdTimeout=120
 
 #--------
+# POOLS
+#--------
+
+#Zec pool: 0 - nanopool, 1 - flypool
+zecPool=1
+
+#--------
 # WALLETS
 #--------
 

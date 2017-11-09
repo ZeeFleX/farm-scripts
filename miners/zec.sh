@@ -23,5 +23,12 @@ done
 #Watchdog
 gnome-terminal -e "./miners/watchdog.sh"
 
-#Start zcash mining over Nanopool
-~/miners/ewbf/miner --server zec-eu1.nanopool.org --user $zecAddress.$rigName/$email --pass z --port 6666 --api 0.0.0.0:42000 --fee 0 --pec
+#Start zcash mining
+case "$zecPool" in
+    "0")
+    ~/miners/ewbf/miner --server zec-eu1.nanopool.org --user $zecAddress.$rigName/$email --pass z --port 6666 --api 0.0.0.0:42000 --fee 0 --pec
+    ;;
+    "1")
+    ~/miners/ewbf/miner --server asia1-zcash.flypool.org --user $zecAddress.$rigName --pass x --port 3333 --api 0.0.0.0:42000 --fee 0 --pec
+    ;;
+esac

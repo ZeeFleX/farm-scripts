@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ln -s ~/.local/share/applications/ZCash.desktop ~/.config/autostart/startminer.desktop -f
+ln -s ~/.local/share/applications/BitcoinGold.desktop ~/.config/autostart/startminer.desktop -f
 
 #Reading config file
 . ~/miners/config.cfg
@@ -24,4 +24,4 @@ done
 gnome-terminal -e "./miners/watchdog.sh"
 
 #Start zcash mining over Nanopool
-~/miners/ewbf/miner --server eu1.btgmine.org --user $zecAddress.$rigName/$email --pass z --port 3032 --api 0.0.0.0:42000 --fee 0 --pec
+~/miners/ewbf/miner --server eu.pool.gold --user $btgAddress.$rigName --pass x --port 3044 --api 0.0.0.0:42000 --fee 0 --pec

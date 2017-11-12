@@ -129,6 +129,11 @@ zecPool=1
 # WALLETS
 #--------
 
+# Bitcoin Gold wallet
+
+
+btgAddress=""
+
 # bitcoinz
 btczAddress="t1QHxShVd5xwsr8Er96FvQ586LtMqRdYUz6"
 

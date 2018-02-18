@@ -1,6 +1,7 @@
 /*
 !miners
 miners/config.cfg
+!ethcontrol/EthControl
 !.config/autostart/*
 !.local/share/applications/*
 !.gitignore

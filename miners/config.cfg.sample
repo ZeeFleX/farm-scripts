@@ -126,6 +126,12 @@ wdTimeout=120
 zecPool=1
 
 #--------
+# ETHCONTROL
+#--------
+
+accessToken="a6cfaf5d80f9b1c01a0c1e33083a00f1"
+
+#--------
 # WALLETS
 #--------
 

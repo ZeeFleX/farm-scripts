@@ -24,4 +24,4 @@ done
 gnome-terminal -e "./miners/watchdog.sh"
 
 #Start monero mining
-~/miners/xmr-stak/bin/xmr-stak -O xmr-eu1.nanopool.org:14433 -u $xmrPaymentID.$rigName/$email --currency monero7 -i 0 -p "" -r $rigName -i 3333
+~/miners/xmr/bin/xmr-stak -O xmr-eu1.nanopool.org:14433 -u $xmrPaymentID.$rigName/$email --currency monero7 -i 0 -p "" -r $rigName -i 3333

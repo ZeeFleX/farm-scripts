@@ -93,16 +93,34 @@ equihashMemory[11]=600
 equihashCore[12]=150
 equihashMemory[12]=600
 
+#-------------
+# Cryptonight
+#-------------
+xmrCore[0]=150
+xmrMemory[0]=400
+
+xmrCore[1]=150
+xmrMemory[1]=400
+
+xmrCore[2]=150
+xmrMemory[2]=400
+
+xmrCore[3]=150
+xmrMemory[3]=400
+
+xmrCore[4]=150
+xmrMemory[4]=400
+
 #---------------
 # Powerlimits (W)
 #---------------
 
-powerLimit=110
+powerLimit=120
 
 #-----------
 # FAN CONTROL
 #-----------
-enableFanControl=1
+enableFanControl=0
 targetTemp=78
 
 #-----------------
@@ -113,7 +131,7 @@ targetTemp=78
 wdInterval=60
 
 #Watchdog signal utilization level
-wdSignalUtilization=60
+wdSignalUtilization=30
 
 #Watchdog timeout (set timeout to start querries for GPU utilization, in seconds)
 wdTimeout=120
@@ -135,9 +153,11 @@ accessToken="a6cfaf5d80f9b1c01a0c1e33083a00f1"
 # WALLETS
 #--------
 
+# Monero
+xmrAddress="463tWEBn5XZJSxLU6uLQnQ2iY9xuNcDbjLSjkn3XAXHCbLrTTErJrBWYgHJQyrCwkNgYvyV3z8zctJLPCZy24jvb3NiTcTJ"
+xmrPaymentID="0e5e05417ff442388d59a3673608f6387d4c94bccea54101be30b873965aa593"
+
 # Bitcoin Gold wallet
-
-
 btgAddress=""
 
 # bitcoinz

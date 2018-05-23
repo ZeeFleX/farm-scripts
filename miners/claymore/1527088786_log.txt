@@ -1,0 +1,464 @@
+20:19:46:919	9c1f0740	Check and remove old log files...
+20:19:46:919	9c1f0740	args: -epool eth-eu1.nanopool.org:9999 -ewal 0xe6185b158d7a99cde1f32f4a2eae572264b05a2f/test_farm/kardapolov@gmail.com -mode 1 -wd 0 
+20:19:46:919	9c1f0740	
+20:19:46:919	9c1f0740	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+20:19:46:919	9c1f0740	บ                Claymore's Dual GPU Miner - v11.7               บ
+20:19:46:919	9c1f0740	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+20:19:46:919	9c1f0740	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+20:19:46:919	9c1f0740	
+20:19:46:919	9c1f0740	b583 
+20:19:47:119	9c1f0740	ETH: 1 pool is specified
+20:19:47:119	9c1f0740	Main Ethereum pool is eth-eu1.nanopool.org:9999
+20:19:47:415	9c1f0740	OpenCL platform: AMD Accelerated Parallel Processing
+20:19:47:415	9c1f0740	OpenCL initializing...
+
+20:19:47:415	9c1f0740	AMD Cards available: 5 
+20:19:47:415	9c1f0740	GPU #0: Ellesmere (Radeon RX 570 Series), 7598 MB available, 32 compute units (pci bus 1:0:0)
+20:19:47:415	9c1f0740	GPU #0 recognized as Radeon RX 470/570
+20:19:47:415	9c1f0740	GPU #1: Ellesmere (Radeon RX 570 Series), 8071 MB available, 32 compute units (pci bus 3:0:0)
+20:19:47:415	9c1f0740	GPU #1 recognized as Radeon RX 470/570
+20:19:47:415	9c1f0740	GPU #2: Ellesmere (Radeon RX 570 Series), 8071 MB available, 32 compute units (pci bus 4:0:0)
+20:19:47:415	9c1f0740	GPU #2 recognized as Radeon RX 470/570
+20:19:47:415	9c1f0740	GPU #3: Ellesmere (Radeon RX 570 Series), 8071 MB available, 32 compute units (pci bus 8:0:0)
+20:19:47:415	9c1f0740	GPU #3 recognized as Radeon RX 470/570
+20:19:47:415	9c1f0740	GPU #4: Ellesmere (Radeon RX 570 Series), 8071 MB available, 32 compute units (pci bus 9:0:0)
+20:19:47:415	9c1f0740	GPU #4 recognized as Radeon RX 470/570
+20:19:47:415	9c1f0740	POOL/SOLO version
+20:19:47:415	9c1f0740	Platform: Linux
+20:19:47:457	9c1f0740	AMD ADL library not found.
+20:19:47:459	9c1f0740	amdgpu cnt: 5
+20:19:47:466	9c1f0740	start building OpenCL program for GPU 0...
+20:19:47:797	9c1f0740	done
+20:19:47:999	9c1f0740	start building OpenCL program for GPU 1...
+20:19:48:118	9c1f0740	done
+20:19:48:321	9c1f0740	start building OpenCL program for GPU 2...
+20:19:48:434	9c1f0740	done
+20:19:48:636	9c1f0740	start building OpenCL program for GPU 3...
+20:19:48:750	9c1f0740	done
+20:19:48:954	9c1f0740	start building OpenCL program for GPU 4...
+20:19:49:110	9c1f0740	done
+20:19:49:320	9c1f0740	GPU #0: algorithm ASM 1
+20:19:49:329	9c1f0740	GPU #1: algorithm ASM 1
+20:19:49:341	9c1f0740	GPU #2: algorithm ASM 1
+20:19:49:352	9c1f0740	GPU #3: algorithm ASM 1
+20:19:49:361	9c1f0740	GPU #4: algorithm ASM 1
+20:19:49:361	9c1f0740	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+20:19:49:361	9c1f0740	No NVIDIA CUDA GPUs detected.
+20:19:49:361	9c1f0740	Total cards: 5 
+20:19:52:162	9c1f0740	
+You can use "+" and "-" keys to achieve best ETH speed, see "FINE TUNING" section in Readme for details.
+
+20:19:53:162	9c1f0740	No NVIDIA cards in the list, NVML library will not be used.
+20:19:53:182	5a7fc700	ETH: Stratum - connecting to 'eth-eu1.nanopool.org' <213.32.74.219> port 9999 (unsecure)
+20:19:53:274	5a7fc700	sent: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xe6185b158d7a99cde1f32f4a2eae572264b05a2f/test_farm/kardapolov@gmail.com", ""], "id": 2, "method": "eth_submitLogin"}
+
+20:19:53:274	5a7fc700	ETH: Stratum - Connected (eth-eu1.nanopool.org:9999) (unsecure)
+20:19:53:276	9c1f0740	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+20:19:53:276	9c1f0740	ETH: eth-proxy stratum mode
+20:19:53:276	9c1f0740	Watchdog disabled
+20:19:53:276	9c1f0740	Remote management (READ-ONLY MODE) is enabled on port 3333
+20:19:53:276	9c1f0740	
+20:19:53:276	9c1f0740	You did not specify -dcri values directly, so they will be detected automatically
+20:19:53:277	9c1f0740	Automatic detection of best -dcri values started, please wait...
+
+20:19:53:396	5a7fc700	buf: {"jsonrpc":"2.0","id":2,"result":true}
+{"jsonrpc":"2.0","id":0,"result":["0x75478e679a2238079590500f44452e50b579fc85b839b6b88b61c8ba30fd0403","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:19:53:396	5a7fc700	ETH: Authorized
+20:19:53:396	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:19:53:396	5a7fc700	remove first packet 243
+20:19:53:468	6132a700	Setting DAG epoch #188...
+20:19:53:497	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x75478e679a2238079590500f44452e50b579fc85b839b6b88b61c8ba30fd0403","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:19:56:189	6332e700	Setting DAG epoch #188 for GPU0
+20:19:56:189	6332e700	Create GPU buffer for GPU0
+20:19:56:189	62b2d700	Setting DAG epoch #188 for GPU1
+20:19:56:189	5bfff700	Setting DAG epoch #188 for GPU3
+20:19:56:189	5bfff700	Create GPU buffer for GPU3
+20:19:56:189	5b7fe700	Setting DAG epoch #188 for GPU4
+20:19:56:189	5b7fe700	Create GPU buffer for GPU4
+20:19:56:189	62b2d700	Create GPU buffer for GPU1
+20:19:56:191	6132a700	Setting DAG epoch #188 for GPU2
+20:19:56:193	6132a700	Create GPU buffer for GPU2
+20:20:01:092	62b2d700	GPU1 DAG creation time - 4801 ms
+20:20:01:092	62b2d700	Setting DAG epoch #188 for GPU1 done
+20:20:01:098	6332e700	GPU0 DAG creation time - 4841 ms
+20:20:01:098	6332e700	Setting DAG epoch #188 for GPU0 done
+20:20:01:105	6132a700	GPU2 DAG creation time - 4802 ms
+20:20:01:105	6132a700	Setting DAG epoch #188 for GPU2 done
+20:20:01:141	5bfff700	GPU3 DAG creation time - 4844 ms
+20:20:01:141	5bfff700	Setting DAG epoch #188 for GPU3 done
+20:20:01:187	5b7fe700	GPU4 DAG creation time - 4802 ms
+20:20:01:187	5b7fe700	Setting DAG epoch #188 for GPU4 done
+20:20:03:397	5a7fc700	ETH: checking pool connection...
+20:20:03:397	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:20:03:507	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x75478e679a2238079590500f44452e50b579fc85b839b6b88b61c8ba30fd0403","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:20:08:269	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x7db5454c84b32d4233be18de673f813ef187c8d10bf599fb6135fe6d2e01a059","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:20:08:269	5a7fc700	ETH: 05/23/18-20:20:08 - New job from eth-eu1.nanopool.org:9999
+20:20:08:269	5a7fc700	target: 0x000000006df37f67 (diff: 10000MH), epoch 188(2.47GB)
+20:20:08:269	5a7fc700	ETH - Total Speed: 151.124 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+20:20:08:269	5a7fc700	ETH: GPU0 30.140 Mh/s, GPU1 30.229 Mh/s, GPU2 30.250 Mh/s, GPU3 30.247 Mh/s, GPU4 30.259 Mh/s
+20:20:09:968	6132a700	gd 2.62
+20:20:09:969	5b7fe700	gd 4.62
+20:20:09:969	5bfff700	gd 3.62
+20:20:09:969	62b2d700	gd 1.62
+20:20:09:977	6332e700	gd 0.62
+20:20:11:148	95215700	GPU #0: apply best detected -dcri value: 12
+20:20:11:148	95215700	GPU #1: apply best detected -dcri value: 6
+20:20:11:148	95215700	GPU #2: apply best detected -dcri value: 6
+20:20:11:148	95215700	GPU #3: apply best detected -dcri value: 6
+20:20:11:148	95215700	GPU #4: apply best detected -dcri value: 6
+20:20:11:148	95215700	Automatic detection of best -dcri values completed
+20:20:11:259	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x13c5a61f419470a34c1b97faa812153ec0d1c1cf576c36c4a7b4e891fc8ec5f6","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:20:11:259	5a7fc700	ETH: 05/23/18-20:20:11 - New job from eth-eu1.nanopool.org:9999
+20:20:11:259	5a7fc700	target: 0x000000006df37f67 (diff: 10000MH), epoch 188(2.47GB)
+20:20:11:259	5a7fc700	ETH - Total Speed: 156.204 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+20:20:11:259	5a7fc700	ETH: GPU0 31.103 Mh/s, GPU1 31.279 Mh/s, GPU2 31.271 Mh/s, GPU3 31.273 Mh/s, GPU4 31.278 Mh/s
+20:20:13:397	5a7fc700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x97581f2", "0x0000000000000000000000000000000000000000000000000000000036794361"]}
+
+20:20:13:399	5a7fc700	ETH: checking pool connection...
+20:20:13:399	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:20:13:633	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x13c5a61f419470a34c1b97faa812153ec0d1c1cf576c36c4a7b4e891fc8ec5f6","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:20:17:124	94a14700	GPU0 t=57C fan=34%, GPU1 t=54C fan=34%, GPU2 t=63C fan=35%, GPU3 t=70C fan=40%, GPU4 t=59C fan=34%
+20:20:17:155	95215700	em hbt: 1, fm hbt: 50, 
+20:20:17:155	95215700	watchdog - thread 0 (gpu0), hb time 38
+20:20:17:155	95215700	watchdog - thread 1 (gpu0), hb time 305
+20:20:17:155	95215700	watchdog - thread 2 (gpu1), hb time 90
+20:20:17:155	95215700	watchdog - thread 3 (gpu1), hb time 354
+20:20:17:155	95215700	watchdog - thread 4 (gpu2), hb time 90
+20:20:17:155	95215700	watchdog - thread 5 (gpu2), hb time 353
+20:20:17:155	95215700	watchdog - thread 6 (gpu3), hb time 90
+20:20:17:155	95215700	watchdog - thread 7 (gpu3), hb time 354
+20:20:17:155	95215700	watchdog - thread 8 (gpu4), hb time 353
+20:20:17:155	95215700	watchdog - thread 9 (gpu4), hb time 90
+20:20:18:015	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xed02e8c8687efd02e36d63904d2d9be340e8fc585e235634756ff0398e390d96","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:20:18:016	5a7fc700	ETH: 05/23/18-20:20:18 - New job from eth-eu1.nanopool.org:9999
+20:20:18:016	5a7fc700	target: 0x000000006df37f67 (diff: 10000MH), epoch 188(2.47GB)
+20:20:18:016	5a7fc700	ETH - Total Speed: 158.611 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+20:20:18:016	5a7fc700	ETH: GPU0 31.567 Mh/s, GPU1 31.744 Mh/s, GPU2 31.734 Mh/s, GPU3 31.804 Mh/s, GPU4 31.762 Mh/s
+20:20:23:400	5a7fc700	ETH: checking pool connection...
+20:20:23:400	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:20:23:501	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xed02e8c8687efd02e36d63904d2d9be340e8fc585e235634756ff0398e390d96","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:20:33:398	5a7fc700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x9752dc6", "0x0000000000000000000000000000000000000000000000000000000036794361"]}
+
+20:20:33:402	5a7fc700	ETH: checking pool connection...
+20:20:33:402	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:20:33:637	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xed02e8c8687efd02e36d63904d2d9be340e8fc585e235634756ff0398e390d96","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:20:42:677	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x8791d7b356319060beded0cd81c2fe20e1596d1cb565da145e99e7e583139cb3","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:20:42:677	5a7fc700	ETH: 05/23/18-20:20:42 - New job from eth-eu1.nanopool.org:9999
+20:20:42:677	5a7fc700	target: 0x000000006df37f67 (diff: 10000MH), epoch 188(2.47GB)
+20:20:42:678	5a7fc700	ETH - Total Speed: 158.685 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+20:20:42:679	5a7fc700	ETH: GPU0 31.577 Mh/s, GPU1 31.767 Mh/s, GPU2 31.786 Mh/s, GPU3 31.785 Mh/s, GPU4 31.770 Mh/s
+20:20:43:403	5a7fc700	ETH: checking pool connection...
+20:20:43:403	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:20:43:509	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x8791d7b356319060beded0cd81c2fe20e1596d1cb565da145e99e7e583139cb3","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:20:46:988	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x8e3788c13667777bff17f38f3cf38517f2723352c6f04b91b0c6dddb6121c066","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:20:46:988	5a7fc700	ETH: 05/23/18-20:20:46 - New job from eth-eu1.nanopool.org:9999
+20:20:46:988	5a7fc700	target: 0x000000006df37f67 (diff: 10000MH), epoch 188(2.47GB)
+20:20:46:988	5a7fc700	ETH - Total Speed: 158.624 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+20:20:46:988	5a7fc700	ETH: GPU0 31.562 Mh/s, GPU1 31.777 Mh/s, GPU2 31.781 Mh/s, GPU3 31.752 Mh/s, GPU4 31.751 Mh/s
+20:20:47:128	94a14700	GPU0 t=65C fan=41%, GPU1 t=60C fan=38%, GPU2 t=68C fan=46%, GPU3 t=71C fan=46%, GPU4 t=65C fan=42%
+20:20:47:186	95215700	em hbt: 0, fm hbt: 54, 
+20:20:47:186	95215700	watchdog - thread 0 (gpu0), hb time 196
+20:20:47:186	95215700	watchdog - thread 1 (gpu0), hb time 196
+20:20:47:186	95215700	watchdog - thread 2 (gpu1), hb time 196
+20:20:47:186	95215700	watchdog - thread 3 (gpu1), hb time 196
+20:20:47:186	95215700	watchdog - thread 4 (gpu2), hb time 195
+20:20:47:186	95215700	watchdog - thread 5 (gpu2), hb time 195
+20:20:47:186	95215700	watchdog - thread 6 (gpu3), hb time 196
+20:20:47:186	95215700	watchdog - thread 7 (gpu3), hb time 196
+20:20:47:186	95215700	watchdog - thread 8 (gpu4), hb time 196
+20:20:47:186	95215700	watchdog - thread 9 (gpu4), hb time 196
+20:20:53:400	5a7fc700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x975ca04", "0x0000000000000000000000000000000000000000000000000000000036794361"]}
+
+20:20:53:404	5a7fc700	ETH: checking pool connection...
+20:20:53:405	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:20:53:644	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x8e3788c13667777bff17f38f3cf38517f2723352c6f04b91b0c6dddb6121c066","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:21:03:405	5a7fc700	ETH: checking pool connection...
+20:21:03:405	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:21:03:512	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x8e3788c13667777bff17f38f3cf38517f2723352c6f04b91b0c6dddb6121c066","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:21:05:770	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xfbf9c624b7aa6a077e9dd683c6c78679151c7b5d53360b6f790c6df2ec1faf91","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:21:05:770	5a7fc700	ETH: 05/23/18-20:21:05 - New job from eth-eu1.nanopool.org:9999
+20:21:05:770	5a7fc700	target: 0x000000006df37f67 (diff: 10000MH), epoch 188(2.47GB)
+20:21:05:770	5a7fc700	ETH - Total Speed: 158.707 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+20:21:05:770	5a7fc700	ETH: GPU0 31.582 Mh/s, GPU1 31.774 Mh/s, GPU2 31.776 Mh/s, GPU3 31.780 Mh/s, GPU4 31.795 Mh/s
+20:21:13:401	5a7fc700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x9740d4a", "0x0000000000000000000000000000000000000000000000000000000036794361"]}
+
+20:21:13:407	5a7fc700	ETH: checking pool connection...
+20:21:13:407	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:21:13:640	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xfbf9c624b7aa6a077e9dd683c6c78679151c7b5d53360b6f790c6df2ec1faf91","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:21:17:133	94a14700	GPU0 t=69C fan=49%, GPU1 t=64C fan=40%, GPU2 t=71C fan=49%, GPU3 t=73C fan=47%, GPU4 t=69C fan=47%
+20:21:17:213	95215700	em hbt: 0, fm hbt: 54, 
+20:21:17:213	95215700	watchdog - thread 0 (gpu0), hb time 11
+20:21:17:213	95215700	watchdog - thread 1 (gpu0), hb time 277
+20:21:17:213	95215700	watchdog - thread 2 (gpu1), hb time 344
+20:21:17:213	95215700	watchdog - thread 3 (gpu1), hb time 79
+20:21:17:213	95215700	watchdog - thread 4 (gpu2), hb time 349
+20:21:17:213	95215700	watchdog - thread 5 (gpu2), hb time 86
+20:21:17:213	95215700	watchdog - thread 6 (gpu3), hb time 344
+20:21:17:213	95215700	watchdog - thread 7 (gpu3), hb time 80
+20:21:17:213	95215700	watchdog - thread 8 (gpu4), hb time 79
+20:21:17:213	95215700	watchdog - thread 9 (gpu4), hb time 343
+20:21:23:135	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc8b6a7a093d6771f3c9d2b4d37995fd87f50f8f5a41c59a9bbeb3f1e71ef2ab6","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:21:23:135	5a7fc700	ETH: 05/23/18-20:21:23 - New job from eth-eu1.nanopool.org:9999
+20:21:23:135	5a7fc700	target: 0x000000006df37f67 (diff: 10000MH), epoch 188(2.47GB)
+20:21:23:135	5a7fc700	ETH - Total Speed: 158.506 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+20:21:23:135	5a7fc700	ETH: GPU0 31.369 Mh/s, GPU1 31.790 Mh/s, GPU2 31.774 Mh/s, GPU3 31.786 Mh/s, GPU4 31.788 Mh/s
+20:21:23:408	5a7fc700	ETH: checking pool connection...
+20:21:23:408	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:21:23:519	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc8b6a7a093d6771f3c9d2b4d37995fd87f50f8f5a41c59a9bbeb3f1e71ef2ab6","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:21:33:403	5a7fc700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x9754bf6", "0x0000000000000000000000000000000000000000000000000000000036794361"]}
+
+20:21:33:410	5a7fc700	ETH: checking pool connection...
+20:21:33:410	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:21:33:647	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc8b6a7a093d6771f3c9d2b4d37995fd87f50f8f5a41c59a9bbeb3f1e71ef2ab6","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:21:35:790	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x0ed9fd5bf3358a0953324ebb6de2233bd0293dbe757e4a6df087ff3c213c84c1","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:21:35:790	5a7fc700	ETH: 05/23/18-20:21:35 - New job from eth-eu1.nanopool.org:9999
+20:21:35:790	5a7fc700	target: 0x000000006df37f67 (diff: 10000MH), epoch 188(2.47GB)
+20:21:35:791	5a7fc700	ETH - Total Speed: 158.676 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+20:21:35:792	5a7fc700	ETH: GPU0 31.587 Mh/s, GPU1 31.762 Mh/s, GPU2 31.773 Mh/s, GPU3 31.780 Mh/s, GPU4 31.774 Mh/s
+20:21:43:411	5a7fc700	ETH: checking pool connection...
+20:21:43:411	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:21:43:521	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x0ed9fd5bf3358a0953324ebb6de2233bd0293dbe757e4a6df087ff3c213c84c1","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:21:47:137	94a14700	GPU0 t=71C fan=50%, GPU1 t=66C fan=41%, GPU2 t=73C fan=50%, GPU3 t=74C fan=48%, GPU4 t=71C fan=49%
+20:21:47:239	95215700	em hbt: 0, fm hbt: 51, 
+20:21:47:239	95215700	watchdog - thread 0 (gpu0), hb time 276
+20:21:47:239	95215700	watchdog - thread 1 (gpu0), hb time 10
+20:21:47:239	95215700	watchdog - thread 2 (gpu1), hb time 354
+20:21:47:240	95215700	watchdog - thread 3 (gpu1), hb time 89
+20:21:47:240	95215700	watchdog - thread 4 (gpu2), hb time 353
+20:21:47:240	95215700	watchdog - thread 5 (gpu2), hb time 89
+20:21:47:240	95215700	watchdog - thread 6 (gpu3), hb time 353
+20:21:47:240	95215700	watchdog - thread 7 (gpu3), hb time 88
+20:21:47:240	95215700	watchdog - thread 8 (gpu4), hb time 88
+20:21:47:240	95215700	watchdog - thread 9 (gpu4), hb time 353
+20:21:51:423	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x1de5112a3f26fd279cafd9b0d3bab2b74a00d3bc0406b30b1291324a7343cb75","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:21:51:424	5a7fc700	ETH: 05/23/18-20:21:51 - New job from eth-eu1.nanopool.org:9999
+20:21:51:424	5a7fc700	target: 0x000000006df37f67 (diff: 10000MH), epoch 188(2.47GB)
+20:21:51:425	5a7fc700	ETH - Total Speed: 158.633 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:01
+20:21:51:425	5a7fc700	ETH: GPU0 31.480 Mh/s, GPU1 31.798 Mh/s, GPU2 31.792 Mh/s, GPU3 31.767 Mh/s, GPU4 31.796 Mh/s
+20:21:53:404	5a7fc700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x9742c58", "0x0000000000000000000000000000000000000000000000000000000036794361"]}
+
+20:21:53:412	5a7fc700	ETH: checking pool connection...
+20:21:53:412	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:21:53:638	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x1de5112a3f26fd279cafd9b0d3bab2b74a00d3bc0406b30b1291324a7343cb75","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:21:58:764	5affd700	checked ETH share on CPU, spent 3ms
+20:21:58:764	5affd700	sent: {"id":14,"method":"eth_submitWork","params":["0xa15b62e00d62b01d","0x1de5112a3f26fd279cafd9b0d3bab2b74a00d3bc0406b30b1291324a7343cb75","0x7f78fb9e69c6657c1e047adb44e54f4a7ccc45d781c6b4b269e4247a36542dec"]}
+
+20:21:58:764	5affd700	ETH: put share nonce a15b62e00d62b01d
+20:21:58:764	5a7fc700	ETH: 05/23/18-20:21:58 - SHARE FOUND - (GPU 4)
+20:21:58:884	5a7fc700	buf: {"jsonrpc":"2.0","id":14,"result":true}
+
+20:21:58:884	5a7fc700	ETH: Share accepted (120 ms)!
+20:22:03:413	5a7fc700	ETH: checking pool connection...
+20:22:03:413	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:22:03:514	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x1de5112a3f26fd279cafd9b0d3bab2b74a00d3bc0406b30b1291324a7343cb75","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:22:11:589	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xd948c5845507b8411dd8ec5ed28718eaffb01079c0c976bf7ca0d0a5b99bb555","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:22:11:590	5a7fc700	ETH: 05/23/18-20:22:11 - New job from eth-eu1.nanopool.org:9999
+20:22:11:590	5a7fc700	target: 0x000000006df37f67 (diff: 10000MH), epoch 188(2.47GB)
+20:22:11:590	5a7fc700	ETH - Total Speed: 158.117 Mh/s, Total Shares: 1, Rejected: 0, Time: 00:02
+20:22:11:590	5a7fc700	ETH: GPU0 31.454 Mh/s, GPU1 31.760 Mh/s, GPU2 31.804 Mh/s, GPU3 31.805 Mh/s, GPU4 31.295 Mh/s
+20:22:13:405	5a7fc700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x974ce75", "0x0000000000000000000000000000000000000000000000000000000036794361"]}
+
+20:22:13:414	5a7fc700	ETH: checking pool connection...
+20:22:13:414	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:22:13:640	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xd948c5845507b8411dd8ec5ed28718eaffb01079c0c976bf7ca0d0a5b99bb555","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:22:17:140	94a14700	GPU0 t=73C fan=51%, GPU1 t=68C fan=40%, GPU2 t=74C fan=50%, GPU3 t=74C fan=50%, GPU4 t=73C fan=49%
+20:22:17:273	95215700	em hbt: 1, fm hbt: 51, 
+20:22:17:273	95215700	watchdog - thread 0 (gpu0), hb time 73
+20:22:17:273	95215700	watchdog - thread 1 (gpu0), hb time 340
+20:22:17:273	95215700	watchdog - thread 2 (gpu1), hb time 403
+20:22:17:273	95215700	watchdog - thread 3 (gpu1), hb time 139
+20:22:17:273	95215700	watchdog - thread 4 (gpu2), hb time 403
+20:22:17:273	95215700	watchdog - thread 5 (gpu2), hb time 139
+20:22:17:273	95215700	watchdog - thread 6 (gpu3), hb time 139
+20:22:17:273	95215700	watchdog - thread 7 (gpu3), hb time 403
+20:22:17:273	95215700	watchdog - thread 8 (gpu4), hb time 404
+20:22:17:273	95215700	watchdog - thread 9 (gpu4), hb time 140
+20:22:19:449	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xe465d42d57eda2b78372758597246b3ab7452e3a3a315e731c1c8c26f4bf0d07","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:22:19:450	5a7fc700	ETH: 05/23/18-20:22:19 - New job from eth-eu1.nanopool.org:9999
+20:22:19:450	5a7fc700	target: 0x000000006df37f67 (diff: 10000MH), epoch 188(2.47GB)
+20:22:19:450	5a7fc700	gpu #0 dt 1.13 (0%, good)
+20:22:19:450	5a7fc700	gpu #1 dt 1.13 (0%, good)
+20:22:19:450	5a7fc700	gpu #2 dt 1.13 (0%, good)
+20:22:19:450	5a7fc700	gpu #3 dt 1.13 (0%, good)
+20:22:19:450	5a7fc700	gpu #4 dt 1.13 (0%, good)
+20:22:19:450	5a7fc700	ETH - Total Speed: 158.592 Mh/s, Total Shares: 1, Rejected: 0, Time: 00:02
+20:22:19:450	5a7fc700	ETH: GPU0 31.431 Mh/s, GPU1 31.796 Mh/s, GPU2 31.795 Mh/s, GPU3 31.785 Mh/s, GPU4 31.786 Mh/s
+20:22:23:416	5a7fc700	ETH: checking pool connection...
+20:22:23:416	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:22:23:519	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xe465d42d57eda2b78372758597246b3ab7452e3a3a315e731c1c8c26f4bf0d07","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:22:33:406	5a7fc700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x9757233", "0x0000000000000000000000000000000000000000000000000000000036794361"]}
+
+20:22:33:416	5a7fc700	ETH: checking pool connection...
+20:22:33:416	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:22:33:641	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xe465d42d57eda2b78372758597246b3ab7452e3a3a315e731c1c8c26f4bf0d07","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:22:43:417	5a7fc700	ETH: checking pool connection...
+20:22:43:417	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:22:43:520	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xe465d42d57eda2b78372758597246b3ab7452e3a3a315e731c1c8c26f4bf0d07","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:22:46:476	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x554ab2973ce902bead69e5b40d0027256aa31d54bb48ddd88a80d8d02e25227e","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:22:46:477	5a7fc700	ETH: 05/23/18-20:22:46 - New job from eth-eu1.nanopool.org:9999
+20:22:46:477	5a7fc700	target: 0x000000006df37f67 (diff: 10000MH), epoch 188(2.47GB)
+20:22:46:477	5a7fc700	ETH - Total Speed: 158.673 Mh/s, Total Shares: 1, Rejected: 0, Time: 00:02
+20:22:46:477	5a7fc700	ETH: GPU0 31.514 Mh/s, GPU1 31.782 Mh/s, GPU2 31.793 Mh/s, GPU3 31.785 Mh/s, GPU4 31.798 Mh/s
+20:22:47:143	94a14700	GPU0 t=74C fan=53%, GPU1 t=69C fan=40%, GPU2 t=75C fan=53%, GPU3 t=75C fan=51%, GPU4 t=74C fan=50%
+20:22:47:310	95215700	em hbt: 1, fm hbt: 51, 
+20:22:47:310	95215700	watchdog - thread 0 (gpu0), hb time 298
+20:22:47:310	95215700	watchdog - thread 1 (gpu0), hb time 31
+20:22:47:310	95215700	watchdog - thread 2 (gpu1), hb time 40
+20:22:47:310	95215700	watchdog - thread 3 (gpu1), hb time 304
+20:22:47:310	95215700	watchdog - thread 4 (gpu2), hb time 304
+20:22:47:310	95215700	watchdog - thread 5 (gpu2), hb time 40
+20:22:47:310	95215700	watchdog - thread 6 (gpu3), hb time 40
+20:22:47:310	95215700	watchdog - thread 7 (gpu3), hb time 304
+20:22:47:310	95215700	watchdog - thread 8 (gpu4), hb time 39
+20:22:47:310	95215700	watchdog - thread 9 (gpu4), hb time 303
+20:22:47:554	60b29700	checked ETH share on CPU, spent 7ms
+20:22:47:555	60b29700	sent: {"id":13,"method":"eth_submitWork","params":["0x77af6138020587ce","0x554ab2973ce902bead69e5b40d0027256aa31d54bb48ddd88a80d8d02e25227e","0xb6ec46430a4efefaa9fa25a8da6f9077f52f7d26f583323890ae0d3f97e0b274"]}
+
+20:22:47:555	60b29700	ETH: put share nonce 77af6138020587ce
+20:22:47:556	5a7fc700	ETH: 05/23/18-20:22:47 - SHARE FOUND - (GPU 3)
+20:22:47:672	5a7fc700	buf: {"jsonrpc":"2.0","id":13,"result":true}
+
+20:22:47:672	5a7fc700	ETH: Share accepted (117 ms)!
+20:22:53:407	5a7fc700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x9741d73", "0x0000000000000000000000000000000000000000000000000000000036794361"]}
+
+20:22:53:419	5a7fc700	ETH: checking pool connection...
+20:22:53:419	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:22:53:640	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x554ab2973ce902bead69e5b40d0027256aa31d54bb48ddd88a80d8d02e25227e","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:22:59:139	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x7721b6a5a57963185cd9e66450febc606c1862445132941c333394f2f2993ecb","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:22:59:140	5a7fc700	ETH: 05/23/18-20:22:59 - New job from eth-eu1.nanopool.org:9999
+20:22:59:140	5a7fc700	target: 0x000000006df37f67 (diff: 10000MH), epoch 188(2.47GB)
+20:22:59:140	5a7fc700	ETH - Total Speed: 158.552 Mh/s, Total Shares: 2, Rejected: 0, Time: 00:03
+20:22:59:140	5a7fc700	ETH: GPU0 31.519 Mh/s, GPU1 31.742 Mh/s, GPU2 31.769 Mh/s, GPU3 31.775 Mh/s, GPU4 31.747 Mh/s
+20:23:03:419	5a7fc700	ETH: checking pool connection...
+20:23:03:419	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:23:03:520	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0x7721b6a5a57963185cd9e66450febc606c1862445132941c333394f2f2993ecb","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:23:05:628	60b29700	checked ETH share on CPU, spent 3ms
+20:23:05:628	60b29700	sent: {"id":13,"method":"eth_submitWork","params":["0xcd8ee1b40c464f20","0x7721b6a5a57963185cd9e66450febc606c1862445132941c333394f2f2993ecb","0xbf76210b1754c89f2ee2523d748b1734b9cfe5982a8f56475af92107aaedc843"]}
+
+20:23:05:628	60b29700	ETH: put share nonce cd8ee1b40c464f20
+20:23:05:629	5a7fc700	ETH: 05/23/18-20:23:05 - SHARE FOUND - (GPU 3)
+20:23:05:755	5a7fc700	buf: {"jsonrpc":"2.0","id":13,"result":true}
+
+20:23:05:755	5a7fc700	ETH: Share accepted (127 ms)!
+20:23:08:954	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc0396f03f0f2441c34b55431ff88335fdc9e36536af1f48e207ffecedf1b3a81","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:23:08:954	5a7fc700	ETH: 05/23/18-20:23:08 - New job from eth-eu1.nanopool.org:9999
+20:23:08:954	5a7fc700	target: 0x000000006df37f67 (diff: 10000MH), epoch 188(2.47GB)
+20:23:08:955	5a7fc700	ETH - Total Speed: 158.763 Mh/s, Total Shares: 3, Rejected: 0, Time: 00:03
+20:23:08:955	5a7fc700	ETH: GPU0 31.564 Mh/s, GPU1 31.807 Mh/s, GPU2 31.795 Mh/s, GPU3 31.802 Mh/s, GPU4 31.795 Mh/s
+20:23:13:408	5a7fc700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x974a10e", "0x0000000000000000000000000000000000000000000000000000000036794361"]}
+
+20:23:13:420	5a7fc700	ETH: checking pool connection...
+20:23:13:420	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:23:13:645	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc0396f03f0f2441c34b55431ff88335fdc9e36536af1f48e207ffecedf1b3a81","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:23:17:147	94a14700	GPU0 t=74C fan=54%, GPU1 t=71C fan=40%, GPU2 t=75C fan=53%, GPU3 t=75C fan=51%, GPU4 t=75C fan=51%
+20:23:17:347	95215700	em hbt: 1, fm hbt: 52, 
+20:23:17:347	95215700	watchdog - thread 0 (gpu0), hb time 379
+20:23:17:347	95215700	watchdog - thread 1 (gpu0), hb time 113
+20:23:17:347	95215700	watchdog - thread 2 (gpu1), hb time 472
+20:23:17:347	95215700	watchdog - thread 3 (gpu1), hb time 208
+20:23:17:347	95215700	watchdog - thread 4 (gpu2), hb time 212
+20:23:17:347	95215700	watchdog - thread 5 (gpu2), hb time 476
+20:23:17:347	95215700	watchdog - thread 6 (gpu3), hb time 212
+20:23:17:347	95215700	watchdog - thread 7 (gpu3), hb time 475
+20:23:17:347	95215700	watchdog - thread 8 (gpu4), hb time 472
+20:23:17:347	95215700	watchdog - thread 9 (gpu4), hb time 208
+20:23:23:422	5a7fc700	ETH: checking pool connection...
+20:23:23:422	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:23:23:522	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc0396f03f0f2441c34b55431ff88335fdc9e36536af1f48e207ffecedf1b3a81","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:23:33:409	5a7fc700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x975000f", "0x0000000000000000000000000000000000000000000000000000000036794361"]}
+
+20:23:33:423	5a7fc700	ETH: checking pool connection...
+20:23:33:423	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:23:33:645	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc0396f03f0f2441c34b55431ff88335fdc9e36536af1f48e207ffecedf1b3a81","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:23:43:424	5a7fc700	ETH: checking pool connection...
+20:23:43:424	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:23:43:524	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc0396f03f0f2441c34b55431ff88335fdc9e36536af1f48e207ffecedf1b3a81","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:23:47:151	94a14700	GPU0 t=75C fan=56%, GPU1 t=72C fan=40%, GPU2 t=75C fan=54%, GPU3 t=75C fan=52%, GPU4 t=75C fan=53%
+20:23:47:386	95215700	em hbt: 0, fm hbt: 30, 
+20:23:47:386	95215700	watchdog - thread 0 (gpu0), hb time 339
+20:23:47:386	95215700	watchdog - thread 1 (gpu0), hb time 74
+20:23:47:386	95215700	watchdog - thread 2 (gpu1), hb time 156
+20:23:47:386	95215700	watchdog - thread 3 (gpu1), hb time 420
+20:23:47:386	95215700	watchdog - thread 4 (gpu2), hb time 160
+20:23:47:386	95215700	watchdog - thread 5 (gpu2), hb time 424
+20:23:47:386	95215700	watchdog - thread 6 (gpu3), hb time 421
+20:23:47:386	95215700	watchdog - thread 7 (gpu3), hb time 157
+20:23:47:386	95215700	watchdog - thread 8 (gpu4), hb time 156
+20:23:47:386	95215700	watchdog - thread 9 (gpu4), hb time 420
+20:23:53:411	5a7fc700	sent: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","params":["0x976e846", "0x0000000000000000000000000000000000000000000000000000000036794361"]}
+
+20:23:53:426	5a7fc700	ETH: checking pool connection...
+20:23:53:426	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:23:53:637	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc0396f03f0f2441c34b55431ff88335fdc9e36536af1f48e207ffecedf1b3a81","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:24:03:427	5a7fc700	ETH: checking pool connection...
+20:24:03:427	5a7fc700	sent: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+20:24:03:529	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc0396f03f0f2441c34b55431ff88335fdc9e36536af1f48e207ffecedf1b3a81","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+
+20:24:03:985	5a7fc700	buf: {"jsonrpc":"2.0","id":0,"result":["0xc0396f03f0f2441c34b55431ff88335fdc9e36536af1f48e207ffecedf1b3a81","0xc16796d9b504e2ac0305bf673638b84a7d0278ba389d82377cde63edcca1a1bb","0x000000006df37f675ef6eadf5ab9a2072d44268d97df837e6748956e5c6c2116"]}
+

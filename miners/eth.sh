@@ -5,24 +5,12 @@ ln -s ~/.local/share/applications/Ethereum.desktop ~/.config/autostart/startmine
 #Reading config file
 . ~/miners/config.cfg
 
-cardsStr=$(nvidia-smi | grep -B1 "Default" | grep -oE "|[[:space:]]*[0-9]*[[:space:]]*GeForce" | grep -oE "[0-9]*")
-gpus=(${cardsStr})
 
-#Setting powerlimits
+#Start mining
+export GPU_MAX_HEAP_SIZE=100
+export GPU_USE_SYNC_OBJECTS=1
+export GPU_MAX_ALLOC_PERCENT=100
+export GPU_SINGLE_ALLOC_PERCENT=100
 
-echo "123321" | sudo -S nvidia-smi -pl $powerLimit
+~/miners/claymore/ethdcrminer64 -epool eth-eu1.nanopool.org:9999 -ewal $ethAddress/$rigName/$email -mode 1 -wd 0
 
-#Overclocking
-for i in ${gpus[@]}
-do
-	nvidia-settings -a [gpu:$i]/GPUPowerMizerMode=1
-	nvidia-settings -a [gpu:$i]/GPUGraphicsClockOffset[3]=${ethashCore[$i]}
-	nvidia-settings -a [gpu:$i]/GPUMemoryTransferRateOffset[3]=${ethashMemory[$i]}
-done
-
-#Watchdog
-gnome-terminal -e "./miners/watchdog.sh"
-
-
-#Start ethereum mining over Nanopool
-~/miners/claymore/ethdcrminer64 -epool eth-eu1.nanopool.org:9999 -ewal $ethAddress.$rigName/$email -epsw x -mode 1 -ftime 10

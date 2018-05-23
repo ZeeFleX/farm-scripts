@@ -1,0 +1,47 @@
+20:32:04:958	6df90740	Check and remove old log files...
+20:32:04:959	6df90740	args: -epool eth-eu1.nanopool.org:9999 -ewal 0xe6185b158d7a99cde1f32f4a2eae572264b05a2f/ArtemP-farm1-13xRX570/artem_pavlenko@mail.ru -mode 1 -wd 0 
+20:32:04:959	6df90740	
+20:32:04:959	6df90740	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+20:32:04:959	6df90740	บ                Claymore's Dual GPU Miner - v11.7               บ
+20:32:04:959	6df90740	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+20:32:04:959	6df90740	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+20:32:04:959	6df90740	
+20:32:04:959	6df90740	b583 
+20:32:05:160	6df90740	ETH: 1 pool is specified
+20:32:05:160	6df90740	Main Ethereum pool is eth-eu1.nanopool.org:9999
+20:32:05:213	6df90740	OpenCL platform: AMD Accelerated Parallel Processing
+20:32:05:213	6df90740	OpenCL initializing...
+
+20:32:05:213	6df90740	AMD Cards available: 5 
+20:32:05:213	6df90740	GPU #0: Ellesmere (Radeon RX 570 Series), 7197 MB available, 32 compute units (pci bus 1:0:0)
+20:32:05:213	6df90740	GPU #0 recognized as Radeon RX 470/570
+20:32:05:213	6df90740	GPU #1: Ellesmere (Radeon RX 570 Series), 8071 MB available, 32 compute units (pci bus 3:0:0)
+20:32:05:213	6df90740	GPU #1 recognized as Radeon RX 470/570
+20:32:05:213	6df90740	GPU #2: Ellesmere (Radeon RX 570 Series), 8071 MB available, 32 compute units (pci bus 4:0:0)
+20:32:05:213	6df90740	GPU #2 recognized as Radeon RX 470/570
+20:32:05:213	6df90740	GPU #3: Ellesmere (Radeon RX 570 Series), 8071 MB available, 32 compute units (pci bus 8:0:0)
+20:32:05:213	6df90740	GPU #3 recognized as Radeon RX 470/570
+20:32:05:213	6df90740	GPU #4: Ellesmere (Radeon RX 570 Series), 8071 MB available, 32 compute units (pci bus 9:0:0)
+20:32:05:213	6df90740	GPU #4 recognized as Radeon RX 470/570
+20:32:05:213	6df90740	POOL/SOLO version
+20:32:05:213	6df90740	Platform: Linux
+20:32:05:235	6df90740	AMD ADL library not found.
+20:32:05:238	6df90740	amdgpu cnt: 5
+20:32:05:240	6df90740	start building OpenCL program for GPU 0...
+20:32:05:340	6df90740	done
+20:32:05:546	6df90740	start building OpenCL program for GPU 1...
+20:32:05:663	6df90740	done
+20:32:05:870	6df90740	start building OpenCL program for GPU 2...
+20:32:05:984	6df90740	done
+20:32:06:190	6df90740	start building OpenCL program for GPU 3...
+20:32:06:307	6df90740	done
+20:32:06:514	6df90740	start building OpenCL program for GPU 4...
+20:32:06:629	6df90740	done
+20:32:06:850	6df90740	GPU #0: algorithm ASM 1
+20:32:06:863	6df90740	GPU #1: algorithm ASM 1
+20:32:06:871	6df90740	GPU #2: algorithm ASM 1
+20:32:06:881	6df90740	GPU #3: algorithm ASM 1
+20:32:06:887	6df90740	GPU #4: algorithm ASM 1
+20:32:06:887	6df90740	cudaGetDeviceCount failed (35, CUDA driver version is insufficient for CUDA runtime version), probably no CUDA devices
+20:32:06:887	6df90740	No NVIDIA CUDA GPUs detected.
+20:32:06:887	6df90740	Total cards: 5 

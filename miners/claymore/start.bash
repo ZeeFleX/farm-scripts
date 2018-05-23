@@ -1,1 +1,7 @@
-./ethdcrminer64 -epool us1.ethpool.org:3333 -ewal 0xD69af2A796A737A103F12d2f0BCC563a13900E6F -epsw x -dpool stratum+tcp://dcr.suprnova.cc:3252 -dwal Redhex.my -dpsw x
+#!/bin/sh
+export GPU_MAX_HEAP_SIZE=100
+export GPU_USE_SYNC_OBJECTS=1
+export GPU_MAX_ALLOC_PERCENT=100
+export GPU_SINGLE_ALLOC_PERCENT=100
+
+./ethdcrminer64 -epool eth-eu1.nanopool.org:9999 -ewal 0xe6185b158d7a99cde1f32f4a2eae572264b05a2f/test_farm/kardapolov@gmail.com -mode 1 -wd 0

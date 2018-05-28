@@ -1,0 +1,229 @@
+22:25:56:623	f4722740	args: -zpool ssl://zec-eu1.nanopool.org:6633 -zwal t1VTCfk13UwqG4RH4qRRC6otYZP6bUyQhKB.ArtemP-farm1-13xRX570/artem_pavlenko@mail.ru -zpsw z -wd 0 -ftime 1 
+22:25:56:623	f4722740	
+22:25:56:624	f4722740	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+22:25:56:624	f4722740	บ             Claymore's ZCash AMD GPU Miner v12.6               บ
+22:25:56:624	f4722740	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+22:25:56:624	f4722740	
+22:25:56:824	f4722740	ZEC: 1 pool is specified
+22:25:56:824	f4722740	Main ZCash pool is zec-eu1.nanopool.org:6633
+22:25:56:854	f4722740	OpenCL platform: AMD Accelerated Parallel Processing
+22:25:56:855	f4722740	OpenCL initializing...
+22:25:56:855	f4722740	AMD Cards available: 5 
+22:25:56:855	f4722740	GPU #0: Ellesmere, 7334 MB available, 32 compute units
+22:25:56:855	f4722740	GPU #0 recognized as Radeon RX 470/570
+22:25:56:855	f4722740	GPU #1: Ellesmere, 8071 MB available, 32 compute units
+22:25:56:855	f4722740	GPU #1 recognized as Radeon RX 470/570
+22:25:56:855	f4722740	GPU #2: Ellesmere, 8071 MB available, 32 compute units
+22:25:56:855	f4722740	GPU #2 recognized as Radeon RX 470/570
+22:25:56:855	f4722740	GPU #3: Ellesmere, 8071 MB available, 32 compute units
+22:25:56:855	f4722740	GPU #3 recognized as Radeon RX 470/570
+22:25:56:855	f4722740	GPU #4: Ellesmere, 8071 MB available, 32 compute units
+22:25:56:855	f4722740	GPU #4 recognized as Radeon RX 470/570
+22:25:56:855	f4722740	POOL version
+22:25:56:855	f4722740	b571 
+22:25:56:855	f4722740	Platform: Linux
+22:25:57:055	f4722740	start building OpenCL program for GPU 0...
+22:25:57:058	f4722740	done
+22:25:57:263	f4722740	start building OpenCL program for GPU 1...
+22:25:57:267	f4722740	done
+22:25:57:474	f4722740	start building OpenCL program for GPU 2...
+22:25:57:479	f4722740	done
+22:25:57:682	f4722740	start building OpenCL program for GPU 3...
+22:25:57:684	f4722740	done
+22:25:57:887	f4722740	start building OpenCL program for GPU 4...
+22:25:57:889	f4722740	done
+22:25:58:211	f4722740	GPU #0 algorithm ASM, intensity 6
+22:25:58:342	f4722740	GPU #1 algorithm ASM, intensity 6
+22:25:58:462	f4722740	GPU #2 algorithm ASM, intensity 6
+22:25:58:582	f4722740	GPU #3 algorithm ASM, intensity 6
+22:25:58:716	f4722740	GPU #4 algorithm ASM, intensity 6
+22:25:58:718	f4722740	Total cards: 5 
+22:26:11:920	f4722740	AMD ADL library not found.
+22:26:11:926	f4722740	amdgpu cnt: 5
+22:26:11:942	c979f700	ZEC: Stratum - connecting to 'zec-eu1.nanopool.org' <51.15.39.52> port 6633
+22:26:12:027	f4722740	Watchdog disabled
+22:26:12:027	f4722740	Remote management (READ-ONLY MODE) is enabled on port 3333
+22:26:12:027	f4722740	
+22:26:12:300	c979f700	cert subject: /O=CloudFlare, Inc./OU=CloudFlare Origin CA/CN=CloudFlare Origin Certificate
+22:26:12:300	c979f700	cert issuer: /C=US/O=CloudFlare, Inc./OU=CloudFlare Origin SSL Certificate Authority/L=San Francisco/ST=California
+22:26:12:300	c979f700	SSL/TLS encryption is enabled
+22:26:12:300	c979f700	send: {"id": 1, "method": "mining.subscribe", "params": ["equihashminer", null, "zec-eu1.nanopool.org", "6633"]}
+
+22:26:12:301	c979f700	send: {"id": 2, "method": "mining.authorize", "params": ["t1VTCfk13UwqG4RH4qRRC6otYZP6bUyQhKB.ArtemP-farm1-13xRX570/artem_pavlenko@mail.ru","z"]}
+
+22:26:12:301	c979f700	send: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+22:26:12:301	c979f700	ZEC: Stratum - Connected (zec-eu1.nanopool.org:6633) (SSL/TLS)
+22:26:12:522	c979f700	got 192 bytes
+22:26:12:522	c979f700	buf: {"id":1,"result":[null,"5f7e010000000000195b7ee351aafe33"],"error":null}
+{"id":null,"params":["00028f5c00000000000000000000000000000000000000000000000000000000"],"method":"mining.set_target"}
+
+22:26:12:522	c979f700	parse packet: 72
+22:26:12:522	c979f700	remove first packet 119
+22:26:12:522	c979f700	new buf size: 119
+22:26:12:522	c979f700	parse packet: 118
+22:26:12:522	c979f700	Pool sets new share target: 0x00028f5c (diff: 25600H)
+22:26:12:522	c979f700	new buf size: 0
+22:26:12:654	c979f700	got 336 bytes
+22:26:12:654	c979f700	buf: {"id":2,"result":true,"error":null}
+{"id":null,"params":["1527444525","04000000","8d813549e864d1790c933a54a4374e7103f033a019f508afbb1b210a00000000","eaf918bb674c3802b4d960dd5d892e68cc39099b25b518473d2c5624356b7275","0000000000000000000000000000000000000000000000000000000000000000","963b0c5b","04ca111c",true],"method":"mining.notify"}
+
+22:26:12:654	c979f700	parse packet: 35
+22:26:12:654	c979f700	ZEC: Authorized
+22:26:12:654	c979f700	remove first packet 300
+22:26:12:654	c979f700	new buf size: 300
+22:26:12:654	c979f700	parse packet: 299
+22:26:12:654	c979f700	new buf size: 0
+22:26:37:155	d1fb0700	ZEC: put share nonce 4b56
+22:26:37:155	d1fb0700	ZEC round found 1 shares
+22:26:37:155	c979f700	ZEC: 05/28/18-22:26:37 - SHARE FOUND - (GPU 0)
+22:26:37:155	c979f700	send share: {"id": 4, "method": "mining.submit", "params": ["t1VTCfk13UwqG4RH4qRRC6otYZP6bUyQhKB.ArtemP-farm1-13xRX570/artem_pavlenko@mail.ru","1527444525","963b0c5b","564b0000000000000000000000000000","fd4005000
+22:26:37:284	c979f700	got 36 bytes
+22:26:37:284	c979f700	buf: {"id":4,"result":true,"error":null}
+
+22:26:37:284	c979f700	parse packet: 35
+22:26:37:284	c979f700	ZEC: Share accepted (129 ms)!
+22:26:37:284	c979f700	new buf size: 0
+22:26:42:030	f4722740	GPU0 t=54C fan=36%, GPU1 t=48C fan=36%, GPU2 t=56C fan=36%, GPU3 t=59C fan=36%, GPU4 t=57C fan=36%
+22:26:42:030	f4722740	em hbt: 2, fm hbt: 59, 
+22:26:42:030	f4722740	watchdog - thread 0, hb time 559
+22:26:42:030	f4722740	watchdog - thread 1, hb time 422
+22:26:42:030	f4722740	watchdog - thread 2, hb time 288
+22:26:42:030	f4722740	watchdog - thread 3, hb time 129
+22:26:42:031	f4722740	watchdog - thread 4, hb time 106
+22:26:42:031	f4722740	watchdog - thread 5, hb time 251
+22:26:42:031	f4722740	watchdog - thread 6, hb time 536
+22:26:42:031	f4722740	watchdog - thread 7, hb time 395
+22:26:42:031	f4722740	watchdog - thread 8, hb time 161
+22:26:42:031	f4722740	watchdog - thread 9, hb time 29
+22:26:42:031	f4722740	watchdog - thread 10, hb time 305
+22:26:42:031	f4722740	watchdog - thread 11, hb time 471
+22:26:42:031	f4722740	watchdog - thread 12, hb time 450
+22:26:42:031	f4722740	watchdog - thread 13, hb time 158
+22:26:42:031	f4722740	watchdog - thread 14, hb time 11
+22:26:42:031	f4722740	watchdog - thread 15, hb time 305
+22:26:42:031	f4722740	watchdog - thread 16, hb time 421
+22:26:42:031	f4722740	watchdog - thread 17, hb time 123
+22:26:42:031	f4722740	watchdog - thread 18, hb time 554
+22:26:42:031	f4722740	watchdog - thread 19, hb time 277
+22:26:43:053	c979f700	got 300 bytes
+22:26:43:053	c979f700	buf: {"id":null,"params":["1527444526","04000000","8d813549e864d1790c933a54a4374e7103f033a019f508afbb1b210a00000000","70006d7896cfa34f87e3d3ad03e4991b2d71f56caad1829d3e727338d2295a59","0000000000000000000000000000000000000000000000000000000000000000","d23b0c5b","04ca111c",true],"method":"mining.notify"}
+
+22:26:43:053	c979f700	parse packet: 299
+22:26:43:053	c979f700	new buf size: 0
+22:26:43:053	c979f700	ZEC: 05/28/18-22:26:43 - New job from zec-eu1.nanopool.org:6633
+22:26:43:053	c979f700	target: 0x00028f5c (diff: 25600H)
+22:26:43:053	c979f700	ZEC - Total Speed: 1530.853 H/s, Total Shares: 1, Rejected: 0, Time: 00:00
+22:26:43:053	c979f700	ZEC: GPU0 305.119 H/s, GPU1 305.645 H/s, GPU2 307.292 H/s, GPU3 302.649 H/s, GPU4 310.148 H/s
+22:26:58:151	cc7a5700	ZEC: put share nonce 2e62
+22:26:58:151	cc7a5700	ZEC round found 1 shares
+22:26:58:152	c979f700	ZEC: 05/28/18-22:26:58 - SHARE FOUND - (GPU 3)
+22:26:58:152	c979f700	send share: {"id": 4, "method": "mining.submit", "params": ["t1VTCfk13UwqG4RH4qRRC6otYZP6bUyQhKB.ArtemP-farm1-13xRX570/artem_pavlenko@mail.ru","1527444526","d23b0c5b","622e0000000000000000000000000000","fd400500b
+22:26:58:313	c979f700	got 36 bytes
+22:26:58:313	c979f700	buf: {"id":4,"result":true,"error":null}
+
+22:26:58:313	c979f700	parse packet: 35
+22:26:58:314	c979f700	ZEC: Share accepted (161 ms)!
+22:26:58:314	c979f700	new buf size: 0
+22:27:10:257	d37b3700	ZEC: put share nonce 5286
+22:27:10:257	d37b3700	ZEC round found 1 shares
+22:27:10:258	c979f700	ZEC: 05/28/18-22:27:10 - SHARE FOUND - (GPU 0)
+22:27:10:258	c979f700	send share: {"id": 4, "method": "mining.submit", "params": ["t1VTCfk13UwqG4RH4qRRC6otYZP6bUyQhKB.ArtemP-farm1-13xRX570/artem_pavlenko@mail.ru","1527444526","d23b0c5b","86520000000000000000000000000000","fd4005007
+22:27:11:891	c979f700	got 36 bytes
+22:27:11:891	c979f700	buf: {"id":4,"result":true,"error":null}
+
+22:27:11:891	c979f700	parse packet: 35
+22:27:11:891	c979f700	ZEC: Share accepted (1633 ms)!
+22:27:11:891	c979f700	new buf size: 0
+22:27:12:034	f4722740	GPU0 t=59C fan=36%, GPU1 t=52C fan=36%, GPU2 t=61C fan=36%, GPU3 t=64C fan=40%, GPU4 t=62C fan=37%
+22:27:12:034	f4722740	em hbt: 1, fm hbt: 15, 
+22:27:12:034	f4722740	watchdog - thread 0, hb time 574
+22:27:12:034	f4722740	watchdog - thread 1, hb time 404
+22:27:12:035	f4722740	watchdog - thread 2, hb time 273
+22:27:12:035	f4722740	watchdog - thread 3, hb time 144
+22:27:12:035	f4722740	watchdog - thread 4, hb time 541
+22:27:12:035	f4722740	watchdog - thread 5, hb time 107
+22:27:12:035	f4722740	watchdog - thread 6, hb time 395
+22:27:12:035	f4722740	watchdog - thread 7, hb time 241
+22:27:12:035	f4722740	watchdog - thread 8, hb time 520
+22:27:12:035	f4722740	watchdog - thread 9, hb time 367
+22:27:12:035	f4722740	watchdog - thread 10, hb time 72
+22:27:12:035	f4722740	watchdog - thread 11, hb time 208
+22:27:12:035	f4722740	watchdog - thread 12, hb time 31
+22:27:12:035	f4722740	watchdog - thread 13, hb time 319
+22:27:12:035	f4722740	watchdog - thread 14, hb time 164
+22:27:12:035	f4722740	watchdog - thread 15, hb time 465
+22:27:12:035	f4722740	watchdog - thread 16, hb time 24
+22:27:12:035	f4722740	watchdog - thread 17, hb time 315
+22:27:12:035	f4722740	watchdog - thread 18, hb time 163
+22:27:12:035	f4722740	watchdog - thread 19, hb time 486
+22:27:16:116	ce7a9700	ZEC: put share nonce 6644
+22:27:16:116	ce7a9700	ZEC round found 1 shares
+22:27:16:116	c979f700	ZEC: 05/28/18-22:27:16 - SHARE FOUND - (GPU 2)
+22:27:16:116	c979f700	send share: {"id": 4, "method": "mining.submit", "params": ["t1VTCfk13UwqG4RH4qRRC6otYZP6bUyQhKB.ArtemP-farm1-13xRX570/artem_pavlenko@mail.ru","1527444526","d23b0c5b","44660000000000000000000000000000","fd4005004
+22:27:16:404	c979f700	got 36 bytes
+22:27:16:404	c979f700	buf: {"id":4,"result":true,"error":null}
+
+22:27:16:404	c979f700	parse packet: 35
+22:27:16:404	c979f700	ZEC: Share accepted (288 ms)!
+22:27:16:404	c979f700	new buf size: 0
+22:27:18:826	d07ad700	ZEC: put share nonce 6f3b
+22:27:18:826	d07ad700	ZEC round found 1 shares
+22:27:18:827	c979f700	ZEC: 05/28/18-22:27:18 - SHARE FOUND - (GPU 1)
+22:27:18:827	c979f700	send share: {"id": 4, "method": "mining.submit", "params": ["t1VTCfk13UwqG4RH4qRRC6otYZP6bUyQhKB.ArtemP-farm1-13xRX570/artem_pavlenko@mail.ru","1527444526","d23b0c5b","3b6f0000000000000000000000000000","fd4005000
+22:27:19:076	c979f700	got 36 bytes
+22:27:19:076	c979f700	buf: {"id":4,"result":true,"error":null}
+
+22:27:19:076	c979f700	parse packet: 35
+22:27:19:076	c979f700	ZEC: Share accepted (250 ms)!
+22:27:19:076	c979f700	new buf size: 0
+22:27:42:038	f4722740	GPU0 t=63C fan=38%, GPU1 t=56C fan=36%, GPU2 t=64C fan=40%, GPU3 t=66C fan=40%, GPU4 t=64C fan=40%
+22:27:42:038	f4722740	em hbt: 1, fm hbt: 76, 
+22:27:42:038	f4722740	watchdog - thread 0, hb time 14
+22:27:42:038	f4722740	watchdog - thread 1, hb time 490
+22:27:42:038	f4722740	watchdog - thread 2, hb time 287
+22:27:42:038	f4722740	watchdog - thread 3, hb time 158
+22:27:42:038	f4722740	watchdog - thread 4, hb time 130
+22:27:42:038	f4722740	watchdog - thread 5, hb time 284
+22:27:42:038	f4722740	watchdog - thread 6, hb time 582
+22:27:42:038	f4722740	watchdog - thread 7, hb time 417
+22:27:42:038	f4722740	watchdog - thread 8, hb time 157
+22:27:42:038	f4722740	watchdog - thread 9, hb time 14
+22:27:42:038	f4722740	watchdog - thread 10, hb time 287
+22:27:42:038	f4722740	watchdog - thread 11, hb time 455
+22:27:42:038	f4722740	watchdog - thread 12, hb time 259
+22:27:42:038	f4722740	watchdog - thread 13, hb time 581
+22:27:42:038	f4722740	watchdog - thread 14, hb time 399
+22:27:42:038	f4722740	watchdog - thread 15, hb time 108
+22:27:42:038	f4722740	watchdog - thread 16, hb time 247
+22:27:42:038	f4722740	watchdog - thread 17, hb time 563
+22:27:42:038	f4722740	watchdog - thread 18, hb time 401
+22:27:42:038	f4722740	watchdog - thread 19, hb time 85
+22:27:43:263	c979f700	got 300 bytes
+22:27:43:263	c979f700	buf: {"id":null,"params":["1527444527","04000000","8d813549e864d1790c933a54a4374e7103f033a019f508afbb1b210a00000000","4e5e74c444ce9666209a02f899307591e8dbcaf172f044803dc4dd82724373aa","0000000000000000000000000000000000000000000000000000000000000000","0f3c0c5b","04ca111c",true],"method":"mining.notify"}
+
+22:27:43:263	c979f700	parse packet: 299
+22:27:43:263	c979f700	new buf size: 0
+22:27:43:263	c979f700	ZEC: 05/28/18-22:27:43 - New job from zec-eu1.nanopool.org:6633
+22:27:43:263	c979f700	target: 0x00028f5c (diff: 25600H)
+22:27:43:264	c979f700	ZEC - Total Speed: 1522.508 H/s, Total Shares: 5, Rejected: 0, Time: 00:01
+22:27:43:264	c979f700	ZEC: GPU0 301.174 H/s, GPU1 304.959 H/s, GPU2 306.644 H/s, GPU3 303.640 H/s, GPU4 306.076 H/s
+22:27:43:939	c979f700	got 300 bytes
+22:27:43:939	c979f700	buf: {"id":null,"params":["1527444528","04000000","386c2137b4f041dac39625bdf9ef3c96e7ade7d3920f4585828a120500000000","076458308e0e94422556ba63edbdf9a70dfb9b292d99e840857bcc6420af1dd1","0000000000000000000000000000000000000000000000000000000000000000","0f3c0c5b","fd8d111c",true],"method":"mining.notify"}
+
+22:27:43:939	c979f700	parse packet: 299
+22:27:43:939	c979f700	new buf size: 0
+22:27:43:939	c979f700	ZEC: 05/28/18-22:27:43 - New job from zec-eu1.nanopool.org:6633
+22:27:43:939	c979f700	target: 0x00028f5c (diff: 25600H)
+22:27:43:939	c979f700	ZEC - Total Speed: 1522.556 H/s, Total Shares: 5, Rejected: 0, Time: 00:01
+22:27:43:939	c979f700	ZEC: GPU0 301.193 H/s, GPU1 305.032 H/s, GPU2 306.810 H/s, GPU3 303.555 H/s, GPU4 305.966 H/s
+22:27:52:092	cafa2700	ZEC: put share nonce 181b
+22:27:52:092	cafa2700	ZEC round found 1 shares
+22:27:52:093	c979f700	ZEC: 05/28/18-22:27:52 - SHARE FOUND - (GPU 4)
+22:27:52:093	c979f700	send share: {"id": 4, "method": "mining.submit", "params": ["t1VTCfk13UwqG4RH4qRRC6otYZP6bUyQhKB.ArtemP-farm1-13xRX570/artem_pavlenko@mail.ru","1527444528","0f3c0c5b","1b180000000000000000000000000000","fd4005000
+22:27:52:235	c979f700	got 36 bytes
+22:27:52:235	c979f700	buf: {"id":4,"result":true,"error":null}
+
+22:27:52:235	c979f700	parse packet: 35
+22:27:52:235	c979f700	ZEC: Share accepted (142 ms)!
+22:27:52:235	c979f700	new buf size: 0

@@ -2,191 +2,20 @@
 # Common settings
 #----------------
 
-rigName="I-farm1-13x1060"
-email="kardapolov@gmail.com"
-
-#-------------------
-# Overclock settings
-#-------------------
-
-#------
-#Ethash
-#------
-ethashCore[0]=0
-ethashMemory[0]=800
-
-ethashCore[1]=0
-ethashMemory[1]=800
-
-ethashCore[2]=0
-ethashMemory[2]=800
-
-ethashCore[3]=0
-ethashMemory[3]=800
-
-ethashCore[4]=0
-ethashMemory[4]=800
-
-ethashCore[5]=0
-ethashMemory[5]=800
-
-ethashCore[6]=0
-ethashMemory[6]=800
-
-ethashCore[7]=0
-ethashMemory[7]=800
-
-ethashCore[8]=0
-ethashMemory[8]=800
-
-ethashCore[9]=0
-ethashMemory[9]=800
-
-ethashCore[10]=0
-ethashMemory[10]=800
-
-ethashCore[11]=0
-ethashMemory[11]=800
-
-ethashCore[12]=0
-ethashMemory[12]=800
-
-#------
-#Equihash
-#------
-equihashCore[0]=150
-equihashMemory[0]=600
-
-equihashCore[1]=150
-equihashMemory[1]=600
-
-equihashCore[2]=150
-equihashMemory[2]=600
-
-equihashCore[3]=150
-equihashMemory[3]=600
-
-equihashCore[4]=150
-equihashMemory[4]=600
-
-equihashCore[5]=150
-equihashMemory[5]=600
-
-equihashCore[6]=150
-equihashMemory[6]=600
-
-equihashCore[7]=150
-equihashMemory[7]=600
-
-equihashCore[8]=150
-equihashMemory[8]=600
-
-equihashCore[9]=150
-equihashMemory[9]=600
-
-equihashCore[10]=150
-equihashMemory[10]=600
-
-equihashCore[11]=150
-equihashMemory[11]=600
-
-equihashCore[12]=150
-equihashMemory[12]=600
-
-#-------------
-# Cryptonight
-#-------------
-xmrCore[0]=150
-xmrMemory[0]=400
-
-xmrCore[1]=150
-xmrMemory[1]=400
-
-xmrCore[2]=150
-xmrMemory[2]=400
-
-xmrCore[3]=150
-xmrMemory[3]=400
-
-xmrCore[4]=150
-xmrMemory[4]=400
-
-#---------------
-# Powerlimits (W)
-#---------------
-
-powerLimit=120
-
-#-----------
-# FAN CONTROL
-#-----------
-enableFanControl=0
-targetTemp=78
-
-#-----------------
-# WATCHDOG SETTINGS
-#-----------------
-
-#Watchdog query interval (seconds)
-wdInterval=60
-
-#Watchdog signal utilization level
-wdSignalUtilization=30
-
-#Watchdog timeout (set timeout to start querries for GPU utilization, in seconds)
-wdTimeout=120
+rigName="ArtemP-farm1-13xRX570"
+email="artem_pavlenko@mail.ru"
 
 #--------
-# POOLS
+# EthPools
+# 0 - nanopool
+# 1 - ethermine
 #--------
 
-#Zec pool: 0 - nanopool, 1 - flypool
-zecPool=1
-
-#--------
-# ETHCONTROL
-#--------
-
-accessToken="a6cfaf5d80f9b1c01a0c1e33083a00f1"
+ethPool=1
 
 #--------
 # WALLETS
 #--------
 
-# Monero
-xmrAddress="463tWEBn5XZJSxLU6uLQnQ2iY9xuNcDbjLSjkn3XAXHCbLrTTErJrBWYgHJQyrCwkNgYvyV3z8zctJLPCZy24jvb3NiTcTJ"
-xmrPaymentID="0e5e05417ff442388d59a3673608f6387d4c94bccea54101be30b873965aa593"
-
-# Bitcoin Gold wallet
-btgAddress=""
-
-# bitcoinz
-btczAddress="t1QHxShVd5xwsr8Er96FvQ586LtMqRdYUz6"
-
 # Ethereum
-ethAddress="0x1471ffaa9ead259f28e85507a668ce41499ac910"
-
-# Ethereum classic
-etcAddress="0xbebb23fecf7b46846a99ffa570b2493827cf8b4f"
-
-# Expanse
-expAddress="0x32c2d653b92a04a0079711e8f74214ba72c30607" 
-
-# Komodo
-kmdAddress="RE5PcTbfuXfMRWUn1MnRnRjGKWfuT2oSxP"
-
-# Musicoin
-musAddress="0x9bf8b6cbec6e4d6fec743e3e66706a9640947eec"
-
-# Ubiq
-ubqAddress="0x5c51885c47d868578861c52e937ebd86ee81fe96"
-
-# ZCash
-zecAddress="t1KaCVuFVvbqUYgopaKuTED1i3jjrH5gWcn"
-
-# ZCash classic
-zclAddress="t1JXw356aCScWWUXXZoeUoNA5S8LajK9K85"
-
-# Zencash classic
-zenAddress="znhxd3FLdjbR4JUkqTwfZHXC3WeooCesn8d"
-
+ethAddress="0xffb0a91854d8deac2818a42f9f704bdac3736ed7"

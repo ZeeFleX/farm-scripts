@@ -1,0 +1,32 @@
+22:25:40:304	9d6e0740	args: -zpool ssl://zec-eu1.nanopool.org:6633 -zwal t1VTCfk13UwqG4RH4qRRC6otYZP6bUyQhKB.ArtemP-farm1-13xRX570/artem_pavlenko@mail.ru -zpsw z -mode 1 -wd 0 -ftime 1 
+22:25:40:304	9d6e0740	
+22:25:40:304	9d6e0740	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+22:25:40:304	9d6e0740	บ             Claymore's ZCash AMD GPU Miner v12.6               บ
+22:25:40:304	9d6e0740	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+22:25:40:304	9d6e0740	
+22:25:40:505	9d6e0740	ZEC: 1 pool is specified
+22:25:40:505	9d6e0740	Main ZCash pool is zec-eu1.nanopool.org:6633
+22:25:40:554	9d6e0740	OpenCL platform: AMD Accelerated Parallel Processing
+22:25:40:555	9d6e0740	OpenCL initializing...
+22:25:40:555	9d6e0740	AMD Cards available: 5 
+22:25:40:555	9d6e0740	GPU #0: Ellesmere, 7339 MB available, 32 compute units
+22:25:40:555	9d6e0740	GPU #0 recognized as Radeon RX 470/570
+22:25:40:555	9d6e0740	GPU #1: Ellesmere, 8071 MB available, 32 compute units
+22:25:40:555	9d6e0740	GPU #1 recognized as Radeon RX 470/570
+22:25:40:555	9d6e0740	GPU #2: Ellesmere, 8071 MB available, 32 compute units
+22:25:40:555	9d6e0740	GPU #2 recognized as Radeon RX 470/570
+22:25:40:555	9d6e0740	GPU #3: Ellesmere, 8071 MB available, 32 compute units
+22:25:40:555	9d6e0740	GPU #3 recognized as Radeon RX 470/570
+22:25:40:555	9d6e0740	GPU #4: Ellesmere, 8071 MB available, 32 compute units
+22:25:40:555	9d6e0740	GPU #4 recognized as Radeon RX 470/570
+22:25:40:555	9d6e0740	POOL version
+22:25:40:555	9d6e0740	b571 
+22:25:40:555	9d6e0740	Platform: Linux
+22:25:40:743	9d6e0740	start building OpenCL program for GPU 0...
+22:25:40:746	9d6e0740	done
+22:25:40:950	9d6e0740	start building OpenCL program for GPU 1...
+22:25:40:953	9d6e0740	done
+22:25:41:158	9d6e0740	start building OpenCL program for GPU 2...
+22:25:41:162	9d6e0740	done
+22:25:41:371	9d6e0740	start building OpenCL program for GPU 3...
+22:25:41:377	9d6e0740	done

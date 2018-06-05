@@ -6,6 +6,14 @@ ln -s ~/.local/share/applications/Ethereum.desktop ~/.config/autostart/startmine
 . ~/miners/config.cfg
 
 
+#Overclocking
+for i in ${cards[@]}
+do
+    echo $passwd | sudo -S ~/miners/tools/wolfamdctrl -i $i -m w --mem-state 2 --mem-clock ${memClocks[$i]}
+    echo "Card $i Overclocked to ${memClocks[$i]}"
+done
+
+
 #Start mining
 export GPU_MAX_HEAP_SIZE=100
 export GPU_USE_SYNC_OBJECTS=1

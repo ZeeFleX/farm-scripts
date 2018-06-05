@@ -10,7 +10,7 @@ ln -s ~/.local/share/applications/Ethereum.desktop ~/.config/autostart/startmine
 for i in ${cards[@]}
 do
     echo "#$i"
-    echo $passwd | sudo -S ~/miners/tools/wolfamdctrl -i $i -m w --mem-state 2 --mem-clock ${memClocks[$i]}
+    echo $passwd | sudo -S ~/miners/tools/wolfamdctrl -i $i --mem-state 2 --mem-clock ${memClocks[$i]}
 done
 
 

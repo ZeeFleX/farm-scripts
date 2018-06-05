@@ -2,8 +2,36 @@
 # Common settings
 #----------------
 
-rigName="ArtemP-farm1-13xRX570"
-email="artem_pavlenko@mail.ru"
+rigName="GlebB-farm1-13xRX570"
+email="wk.borisov@gmail.com"
+cards=(0 1 2 3 4 5 6 7 8 9 10 11 12 13)
+passwd=GlebB
+
+#---------
+# Coin
+# 0 - Ethereum
+# 1 - ZCash
+#---------
+
+coin=0
+
+#---------
+# Overclocking memory
+#---------
+memClocks[0]=2000
+memClocks[1]=0
+memClocks[2]=2000
+memClocks[3]=2000
+memClocks[4]=2000
+memClocks[5]=2000
+memClocks[6]=2000
+memClocks[7]=2000
+memClocks[8]=2000
+memClocks[9]=2000
+memClocks[10]=2000
+memClocks[11]=2000
+memClocks[12]=2000
+memClocks[13]=2000
 
 #--------
 # EthPools
@@ -11,7 +39,7 @@ email="artem_pavlenko@mail.ru"
 # 1 - ethermine
 #--------
 
-ethPool=1
+ethPool=0
 
 #--------
 # WALLETS

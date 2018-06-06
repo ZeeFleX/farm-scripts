@@ -1,0 +1,10 @@
+[Unit]
+Description=Start mining
+After=network.target
+
+[Service]
+Type=idle
+ExecStart=/home/farmer/miners/start.sh
+
+[Install]
+WantedBy=default.target

@@ -5,13 +5,26 @@ ln -s ~/.local/share/applications/Ethereum.desktop ~/.config/autostart/startmine
 #Reading config file
 . ~/miners/config.cfg
 
-case "$coin" in
-    "0")
-	~/miners/eth.sh
-    ;;
+case "$autostart" in
     "1")
-	~/miners/zec.sh
+	~/miners/overclock.sh
+	case "$ethMonitoring" in
+	    "0")
+		case "$coin" in
+		    "0")
+			~/miners/eth.sh
+		    ;;
+		    "1")
+			~/miners/zec.sh
+		    ;;
+		esac
+	    ;;
+	    "1")
+	    echo "ETH Monitoring starting"
+		~/miners/tools/EthControl --accessToken=$ethMonitoringToken --rigName=$rigName
+	    ;;
+	esac
     ;;
-esac 
+esac
 
 

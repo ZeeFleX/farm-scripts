@@ -9,7 +9,6 @@ ln -s ~/.local/share/applications/Ethereum.desktop ~/.config/autostart/startmine
 #Overclocking
 for i in ${cards[@]}
 do
-    echo "#$i"
     echo $passwd | sudo -S ~/miners/tools/wolfamdctrl -i $i --mem-state 2 --mem-clock ${memClocks[$i]}
 done
 

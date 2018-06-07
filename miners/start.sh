@@ -7,7 +7,11 @@ ln -s ~/.local/share/applications/Ethereum.desktop ~/.config/autostart/startmine
 
 case "$autostart" in
     "1")
-	~/miners/overclock.sh
+	case "$overclocking" in
+	    "1")
+		~/miners/overclock.sh
+	    ;;
+	esac
 	case "$ethMonitoring" in
 	    "0")
 		case "$coin" in

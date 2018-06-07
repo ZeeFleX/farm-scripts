@@ -12,6 +12,7 @@ passwd=GlebB
 #---------
 
 autostart=1
+overclocking=1
 
 ethMonitoring=1
 ethMonitoringToken=3679da2f675a2ebe57a7c26e9f526d6b

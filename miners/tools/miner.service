@@ -1,0 +1,13 @@
+[Unit]
+Description=Start mining
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/farmer/miners/start.sh
+
+User=farmer
+Group=farmer
+
+[Install]
+WantedBy=multi-user.target

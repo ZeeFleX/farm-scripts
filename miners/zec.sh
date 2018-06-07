@@ -1,7 +1,5 @@
 #!/bin/bash
 
-ln -s ~/.local/share/applications/Ethereum.desktop ~/.config/autostart/startminer.desktop -f
-
 #Reading config file
 . ~/miners/config.cfg
 

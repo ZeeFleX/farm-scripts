@@ -10,6 +10,11 @@ case "$autostart" in
 		~/miners/overclock.sh
 	    ;;
 	esac
+	case "$downvolt" in
+	    "1")
+		~/miners/downvolt.sh
+	    ;;
+	esac
 	case "$ethMonitoring" in
 	    "0")
 		case "$coin" in

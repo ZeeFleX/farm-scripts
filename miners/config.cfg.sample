@@ -2,9 +2,9 @@
 # Common settings
 #----------------
 
-rigName="GlebB-farm1-13xRX570"
+rigName="GlebB-farm2-13xRX570"
 email="wk.borisov@gmail.com"
-cards=(0 1 2 3 4 5 6 7 8 9 10 11 12 13)
+cards=(0 1 2 3 4 5 6 7 8 9 10 11 12)
 passwd=GlebB
 
 #---------
@@ -13,8 +13,9 @@ passwd=GlebB
 
 autostart=1
 overclocking=1
+downvolt=1
 
-ethMonitoring=1
+ethMonitoring=0
 ethMonitoringToken=3679da2f675a2ebe57a7c26e9f526d6b
 
 #---------
@@ -29,19 +30,28 @@ coin=0
 #---------
 # Overclocking memory
 #---------
-memClocks[0]=2100
-memClocks[1]=2100
-memClocks[2]=2100
-memClocks[3]=2100
-memClocks[4]=2100
-memClocks[5]=2100
-memClocks[6]=2100
-memClocks[7]=2100
-memClocks[8]=2100
-memClocks[9]=2100
-memClocks[10]=2100
-memClocks[11]=2100
-memClocks[12]=2100
+memClocks[0]=2150
+memClocks[1]=2150
+memClocks[2]=2150
+memClocks[3]=2150
+memClocks[4]=2150
+memClocks[5]=2150
+memClocks[6]=2150
+memClocks[7]=2150
+memClocks[8]=2150
+memClocks[9]=2150
+memClocks[10]=2150
+memClocks[11]=2150
+memClocks[12]=2150
+memClocks[13]=2150
+
+#--------
+# Downvolt (mV)
+#--------
+memVoltage=800
+coreClock=1144
+coreVoltageOffset=-50
+maxPowerLimit=95
 
 #--------
 # EthPools
@@ -56,4 +66,4 @@ ethPool=0
 #--------
 
 # Ethereum
-ethAddress="0xe6185b158d7a99cde1f32f4a2eae572264b05a2f"
+ethAddress="0x2c1c5814b82716e53fc174975b687a2a6c26274b"

@@ -5,6 +5,11 @@
 
 case "$autostart" in
     "1")
+	case "$enableFanControl" in
+	    "1")
+		~/miners/fancontrol.sh &
+	    ;;
+	esac
 	case "$overclocking" in
 	    "1")
 		~/miners/overclock.sh
